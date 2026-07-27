@@ -42,8 +42,8 @@ threading.Thread(target=run_flask, daemon=True).start()
 
 # ---------------- MINER ----------------
 twitch_miner = TwitchChannelPointsMiner(
-    username="EchoHunter630492",
-    password="g*5fnf9DC!TReya2*rJx",
+    username="Cipher11483",
+    password="Qualify2-Shore6-Dismantle6-Fidgety7-Transfer4",
     claim_drops_startup=False,
     priority=[
         Priority.STREAK,
@@ -157,8 +157,8 @@ threading.Thread(target=export_points_loop, daemon=True).start()
 twitch_miner.mine(
     [
         Streamer("shayph"),
-        Streamer("sirdapper"),
         Streamer("waffletrades_"),
+        Streamer("copieburger"),
     ],
     followers=False,
     followers_order=FollowersOrder.ASC
